@@ -1,0 +1,8 @@
+config.json
+yoyo.ini
+
+.venv/
+venv/
+
+__pycache__/
+*.pyc

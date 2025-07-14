@@ -1,0 +1,16 @@
+# Core bot requirements
+apscheduler
+
+aiogram
+redis
+
+pydantic
+asyncpg
+
+fastapi
+hypercorn
+
+
+# Database migrations
+psycopg[binary,pool]
+yoyo-migrations

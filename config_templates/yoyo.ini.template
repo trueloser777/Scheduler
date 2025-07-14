@@ -1,0 +1,12 @@
+[DEFAULT]
+user = TO_BE_EDITED
+password = TO_BE_EDITED
+host = TO_BE_EDITED
+port = TO_BE_EDITED
+dbname = TO_BE_EDITED
+
+database = postgresql+psycopg://%(user)s:%(password)s@%(host)s:%(port)s/%(dbname)s
+
+encoding = utf-8
+sources = migrations
+verbosity = 1
